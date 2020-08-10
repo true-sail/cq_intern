@@ -28,6 +28,8 @@
 		08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C5FE1D24CD7256007100CA /* Login.storyboard */; };
 		08C5FE2624CD7A8B007100CA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5FE2524CD7A8B007100CA /* Article.swift */; };
 		08EF05C524C37A6600129792 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FD71524C34D2300383122 /* Rswift.framework */; };
+		1797E68C24E1874200DD4412 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797E68B24E1874200DD4412 /* SearchViewController.swift */; };
+		1797E68E24E187BA00DD4412 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1797E68D24E187BA00DD4412 /* Search.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		088E557C24D7190300A2FE3E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		08C5FE1D24CD7256007100CA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		08C5FE2524CD7A8B007100CA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		1797E68B24E1874200DD4412 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1797E68D24E187BA00DD4412 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,8 +212,18 @@
 		08CC377D24D9870200438D2F /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				1797E68A24E1872600DD4412 /* Search */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		1797E68A24E1872600DD4412 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1797E68D24E187BA00DD4412 /* Search.storyboard */,
+				1797E68B24E1874200DD4412 /* SearchViewController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +291,7 @@
 				082CF75F24D569E7001F7680 /* SampleSearch.storyboard in Resources */,
 				08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */,
 				083FD70C24C33D2B00383122 /* LaunchScreen.storyboard in Resources */,
+				1797E68E24E187BA00DD4412 /* Search.storyboard in Resources */,
 				083FD70924C33D2B00383122 /* Assets.xcassets in Resources */,
 				082CF76824D5A82F001F7680 /* SampleArticleList.storyboard in Resources */,
 			);
@@ -358,6 +373,7 @@
 				082CF76B24D5D526001F7680 /* APIClient.swift in Sources */,
 				082CF76324D59281001F7680 /* R.generated.swift in Sources */,
 				082CF76524D5A5B9001F7680 /* SampleArticleListViewController.swift in Sources */,
+				1797E68C24E1874200DD4412 /* SearchViewController.swift in Sources */,
 				088E557D24D7190300A2FE3E /* MainTabBarController.swift in Sources */,
 				08C5FE2624CD7A8B007100CA /* Article.swift in Sources */,
 				0841933924D950FF00BFCBD3 /* ErrorType.swift in Sources */,
