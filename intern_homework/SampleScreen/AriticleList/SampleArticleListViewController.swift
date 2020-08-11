@@ -4,7 +4,7 @@ import UIKit
 final class SampleArticleListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
+
     private var articles: [Article] = []
 
     static func makeInstance(_ articles: [Article]) -> SampleArticleListViewController {

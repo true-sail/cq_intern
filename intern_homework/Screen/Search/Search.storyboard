@@ -38,6 +38,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0wr-CZ-g2K"/>
                     <connections>
+                        <outlet property="searchButton" destination="HJr-YD-sL0" id="i1r-Nv-NWO"/>
                         <outlet property="textField" destination="TPG-Qn-Kz2" id="eAG-Z1-56m"/>
                     </connections>
                 </viewController>

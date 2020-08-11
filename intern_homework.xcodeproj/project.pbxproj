@@ -28,6 +28,9 @@
 		08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C5FE1D24CD7256007100CA /* Login.storyboard */; };
 		08C5FE2624CD7A8B007100CA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5FE2524CD7A8B007100CA /* Article.swift */; };
 		08EF05C524C37A6600129792 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083FD71524C34D2300383122 /* Rswift.framework */; };
+		170369BC24E2787000D86B56 /* ArticleList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170369BB24E2787000D86B56 /* ArticleList.storyboard */; };
+		170369BE24E2788A00D86B56 /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170369BD24E2788A00D86B56 /* ArticleListViewController.swift */; };
+		170369C024E2B44600D86B56 /* ArticleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170369BF24E2B44600D86B56 /* ArticleListCell.swift */; };
 		1797E68C24E1874200DD4412 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797E68B24E1874200DD4412 /* SearchViewController.swift */; };
 		1797E68E24E187BA00DD4412 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1797E68D24E187BA00DD4412 /* Search.storyboard */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		088E557C24D7190300A2FE3E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		08C5FE1D24CD7256007100CA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		08C5FE2524CD7A8B007100CA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		170369BB24E2787000D86B56 /* ArticleList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArticleList.storyboard; sourceTree = "<group>"; };
+		170369BD24E2788A00D86B56 /* ArticleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		170369BF24E2B44600D86B56 /* ArticleListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListCell.swift; sourceTree = "<group>"; };
 		1797E68B24E1874200DD4412 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1797E68D24E187BA00DD4412 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,9 +218,20 @@
 		08CC377D24D9870200438D2F /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				170369BA24E2766600D86B56 /* ArticleList */,
 				1797E68A24E1872600DD4412 /* Search */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		170369BA24E2766600D86B56 /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				170369BB24E2787000D86B56 /* ArticleList.storyboard */,
+				170369BD24E2788A00D86B56 /* ArticleListViewController.swift */,
+				170369BF24E2B44600D86B56 /* ArticleListCell.swift */,
+			);
+			path = ArticleList;
 			sourceTree = "<group>";
 		};
 		1797E68A24E1872600DD4412 /* Search */ = {
@@ -292,6 +309,7 @@
 				08C5FE1E24CD7256007100CA /* Login.storyboard in Resources */,
 				083FD70C24C33D2B00383122 /* LaunchScreen.storyboard in Resources */,
 				1797E68E24E187BA00DD4412 /* Search.storyboard in Resources */,
+				170369BC24E2787000D86B56 /* ArticleList.storyboard in Resources */,
 				083FD70924C33D2B00383122 /* Assets.xcassets in Resources */,
 				082CF76824D5A82F001F7680 /* SampleArticleList.storyboard in Resources */,
 			);
@@ -365,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170369C024E2B44600D86B56 /* ArticleListCell.swift in Sources */,
 				08527CC824C6FEE900C1F1D5 /* LoginViewController.swift in Sources */,
 				0841933724D9505800BFCBD3 /* Logger.swift in Sources */,
 				088E557A24D669AF00A2FE3E /* Array+Extensions.swift in Sources */,
@@ -377,6 +396,7 @@
 				088E557D24D7190300A2FE3E /* MainTabBarController.swift in Sources */,
 				08C5FE2624CD7A8B007100CA /* Article.swift in Sources */,
 				0841933924D950FF00BFCBD3 /* ErrorType.swift in Sources */,
+				170369BE24E2788A00D86B56 /* ArticleListViewController.swift in Sources */,
 				082CF76124D56DE4001F7680 /* SampleSearchViewController.swift in Sources */,
 				086F846524D997A00084571E /* UIAlertController+Extensions.swift in Sources */,
 			);
